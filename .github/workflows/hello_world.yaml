@@ -12,17 +12,17 @@ on:
 jobs:
   # job 1
   hello:
-    runs-on: ubuntu:latest
+    runs-on: ubuntu-latest
     steps:
       # step 1
       - uses: actions/checkout@v2
       - name: hello world
         run: echo "Hello world"
         shell: bash
-  
+
   # job 2
   goodbye:
-    runs-on: ubuntu:latest
+    runs-on: ubuntu-latest
     # step 1
     steps:
       - name: goodbye world
